@@ -1,140 +1,106 @@
-# MediaCMS
-
-[![GitHub license](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://raw.githubusercontent.com/mediacms-io/mediacms/main/LICENSE.txt)
-[![Releases](https://img.shields.io/github/v/release/mediacms-io/mediacms?color=green)](https://github.com/mediacms-io/mediacms/releases/)
-[![DockerHub](https://img.shields.io/docker/pulls/mediacms/mediacms)](https://hub.docker.com/r/mediacms/mediacms)
-
-
-
-MediaCMS is a modern, fully featured open source video and media CMS. It is developed to meet the needs of modern web platforms for viewing and sharing media. It can be used to build a small to medium video and media portal within minutes.
-
-It is built mostly using the modern stack Django + React and includes a REST API.
-
-A demo is available at https://demo.mediacms.io
-
-
-## Screenshots
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/mediacms-io/mediacms/main/docs/images/index.jpg" width="340">
-    <img src="https://raw.githubusercontent.com/mediacms-io/mediacms/main/docs/images/video.jpg" width="340">
-    <img src="https://raw.githubusercontent.com/mediacms-io/mediacms/main/docs/images/embed.jpg" width="340">
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">媒体内容管理系统</font></font></h1><a id="user-content-mediacms" class="anchor" aria-label="永久链接：MediaCMS" href="#mediacms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://raw.githubusercontent.com/mediacms-io/mediacms/main/LICENSE.txt" rel="nofollow"><img src="https://camo.githubusercontent.com/1091726dec1453bea70e6ef3a0449abba8a683bee33387976269d5d5da9afab7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4147504c25323076332d626c75652e737667" alt="GitHub 许可证" data-canonical-src="https://img.shields.io/badge/License-AGPL%20v3-blue.svg" style="max-width: 100%;"></a>
+<a href="https://github.com/mediacms-io/mediacms/releases/"><img src="https://camo.githubusercontent.com/c6a6b2317665b8b92cdc890fb91d6a25e0306aee8dda086d18053b3f3e4ff616/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6d65646961636d732d696f2f6d65646961636d733f636f6c6f723d677265656e" alt="发行" data-canonical-src="https://img.shields.io/github/v/release/mediacms-io/mediacms?color=green" style="max-width: 100%;"></a>
+<a href="https://hub.docker.com/r/mediacms/mediacms" rel="nofollow"><img src="https://camo.githubusercontent.com/29423ee203a96fd7b01e27596af5b06eb11bdb45777c40312aedf678f3d6ef8b/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f6d65646961636d732f6d65646961636d73" alt="DockerHub" data-canonical-src="https://img.shields.io/docker/pulls/mediacms/mediacms" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MediaCMS 是一款功能齐全的现代开源视频和媒体 CMS。它是为了满足现代网络平台对查看和共享媒体的需求而开发的。它可用于在几分钟内构建一个中小型视频和媒体门户。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它主要使用现代堆栈 Django + React 构建，并包含 REST API。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示可在</font></font><a href="https://demo.mediacms.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://demo.mediacms.io上找到</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">截图</font></font></h2><a id="user-content-screenshots" class="anchor" aria-label="永久链接：截图" href="#screenshots"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p align="center" dir="auto">
+    <a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/mediacms-io/mediacms/main/docs/images/index.jpg"><img src="https://raw.githubusercontent.com/mediacms-io/mediacms/main/docs/images/index.jpg" width="340" style="max-width: 100%;"></a>
+    <a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/mediacms-io/mediacms/main/docs/images/video.jpg"><img src="https://raw.githubusercontent.com/mediacms-io/mediacms/main/docs/images/video.jpg" width="340" style="max-width: 100%;"></a>
+    <a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/mediacms-io/mediacms/main/docs/images/embed.jpg"><img src="https://raw.githubusercontent.com/mediacms-io/mediacms/main/docs/images/embed.jpg" width="340" style="max-width: 100%;"></a>
 </p>
-
-## Features
-- **Complete control over your data**: host it yourself!
-- **Support for multiple publishing workflows**: public, private, unlisted and custom
-- **Modern technologies**: Django/Python/Celery, React.
-- **Multiple media types support**: video, audio,  image, pdf
-- **Multiple media classification options**: categories, tags and custom
-- **Multiple media sharing options**: social media share, videos embed code generation
-- **Easy media searching**: enriched with live search functionality
-- **Playlists for audio and video content**: create playlists, add and reorder content
-- **Responsive design**: including light and dark themes
-- **Advanced users management**: allow self registration, invite only, closed.
-- **Configurable actions**: allow download, add comments, add likes, dislikes, report media
-- **Configuration options**: change logos, fonts, styling, add more pages
-- **Enhanced video player**: customized video.js player with multiple resolution and playback speed options
-- **Multiple transcoding profiles**: sane defaults for multiple dimensions (240p, 360p, 480p, 720p, 1080p) and multiple profiles (h264, h265, vp9)
-- **Adaptive video streaming**: possible through HLS protocol
-- **Subtitles/CC**: support for multilingual subtitle files
-- **Scalable transcoding**: transcoding through priorities. Experimental support for remote workers
-- **Chunked file uploads**: for pausable/resumable upload of content
-- **REST API**: Documented through Swagger
-
-
-## Example cases
-
-- **Schools, education.** Administrators and editors keep what content will be published, students are not distracted with advertisements and irrelevant content, plus they have the ability to select either to stream or download content.
-
-- **Organization sensitive content.** In cases where content is sensitive and cannot be uploaded to external sites.
-
-- **Build a great community.** MediaCMS can be customized (URLs, logos, fonts, aesthetics) so that you create a highly customized video portal for your community!
-
-- **Personal portal.** Organize, categorize and host your content the way you prefer.
-
-
-## Philosophy
-
-We believe there's a need for quality open source web applications that can be used to build community portals and support collaboration.
-
-We have three goals for MediaCMS: a) deliver all functionality one would expect from a modern system, b) allow for easy installation and maintenance, c) allow easy customization and addition of features.
-
-
-## License
-
-MediaCMS is released under [GNU Affero General Public License v3.0 license](LICENSE.txt).
-Copyright Markos Gogoulos.
-
-
-## Support and paid services
-
-We provide custom installations, development of extra functionality, migration from existing systems, integrations with legacy systems, training and support. Contact us at info@mediacms.io for more information.
-
-
-
-## Hardware considerations
-
-For a small to medium installation, with a few hours of video uploaded daily, and a few hundreds of active daily users viewing content, 4GB Ram / 2-4 CPUs as minimum is ok. For a larger installation with many hours of video uploaded daily, consider adding more CPUs and more Ram.
-
-In terms of disk space, think of what the needs will be. A general rule is to multiply by three the size of the expected uploaded videos (since the system keeps original versions, encoded versions plus HLS), so if you receive 1G of videos daily and maintain all of them, you should consider a 1T disk across a year (1G * 3 * 365).
-
-
-## Releases
-
-Visit [Releases Page](https://github.com/mediacms-io/mediacms/releases) for detailed Changelog
-
-
-## Installation / Maintanance
-
-There are two ways to run MediaCMS, through Docker Compose and through installing it on a server via an automation script that installs and configures all needed services. Find the related pages:
-
-* [Single Server](docs/admins_docs.md#2-server-installation) page
-* [Docker Compose](docs/admins_docs.md#3-docker-installation) page
-
-  A complete guide can be found on the blog post [How to self-host and share your videos in 2021](https://medium.com/@MediaCMS.io/how-to-self-host-and-share-your-videos-in-2021-14067e3b291b).
-
-## Configuration
-
-Visit [Configuration](docs/admins_docs.md#5-configuration) page.
-
-
-## Information for developers
-Check out the new section on the [Developer Experience](docs/dev_exp.md) page
-
-
-## Documentation
-
-* [Users documentation](docs/user_docs.md) page
-* [Administrators documentation](docs/admins_docs.md) page
-* [Developers documentation](docs/developers_docs.md) page
-
-
-## Technology
-
-This software uses the following list of awesome technologies: Python, Django, Django Rest Framework, Celery, PostgreSQL, Redis, Nginx, uWSGI, React, Fine Uploader, video.js, FFMPEG, Bento4
-
-
-## Who is using it
-
-- **Cinemata** non-profit media, technology and culture organization - https://cinemata.org
-- **Critical Commons** public media archive and fair use advocacy network - https://criticalcommons.org
-- **American Association of Gynecologic Laparoscopists** - https://surgeryu.aagl.org/
-
-
-## How to contribute
-
-If you like the project, here's a few things you can do
-- Hire us, for custom installations, training, support, maintenance work
-- Suggest us to others that are interested to hire us
-- Write a blog post/article about MediaCMS
-- Share on social media about the project
-- Open issues, participate on [discussions](https://github.com/mediacms-io/mediacms/discussions), report bugs, suggest ideas
-- [Show and tell](https://github.com/mediacms-io/mediacms/discussions/categories/show-and-tell) how you are using the project
-- Star the project
-- Add functionality, work on a PR, fix an issue!
-
-
-## Contact
-
-info@mediacms.io
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></h2><a id="user-content-features" class="anchor" aria-label="固定链接：功能" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完全控制您的数据</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：自己托管！</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持多种发布工作流程</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：公开、私人、不公开和自定义</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现代技术</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：Django/Python/Celery、React。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持多种媒体类型</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：视频、音频、图像、pdf</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多种媒体分类选项</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：类别、标签和自定义</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多种媒体共享选项</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：社交媒体共享、视频嵌入代码生成</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻松的媒体搜索</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：丰富的实时搜索功能</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">音频和视频内容的播放列表</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：创建播放列表、添加和重新排序内容</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">响应式设计</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：包括明暗主题</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">高级用户管理</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：允许自我注册、仅限邀请、关闭。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可配置的操作</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：允许下载、添加评论、添加喜欢、不喜欢、举报媒体</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置选项</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：更改徽标、字体、样式、添加更多页面</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">增强的视频播放器</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：定制的 video.js 播放器，具有多种分辨率和播放速度选项</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多种转码配置文件</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：多种尺寸（240p、360p、480p、720p、1080p）和多种配置文件（h264、h265、vp9）的合理默认值</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自适应视频流</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：可通过 HLS 协议实现</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字幕/CC</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：支持多语言字幕文件</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可扩展转码</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：通过优先级进行转码。对远程工作者的实验性支持</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分块文件上传</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：用于可暂停/可恢复的内容上传</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">REST API</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：通过 Swagger 记录</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例案例</font></font></h2><a id="user-content-example-cases" class="anchor" aria-label="永久链接：示例案例" href="#example-cases"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">学校、教育。</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">管理员和编辑可以决定发布哪些内容，学生不会被广告和不相关的内容分散注意力，而且他们还可以选择流式传输或下载内容。</font></font></p>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组织敏感内容。</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内容敏感且无法上传到外部网站的情况。</font></font></p>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打造一个伟大的社区。MediaCMS</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以自定义（URL、徽标、字体、美学），以便您为社区创建高度定制的视频门户！</font></font></p>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">个人门户。</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按您喜欢的方式组织、分类和托管您的内容。</font></font></p>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">哲学</font></font></h2><a id="user-content-philosophy" class="anchor" aria-label="永久链接：哲学" href="#philosophy"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们相信需要高质量的开源网络应用程序来构建社区门户并支持协作。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们对 MediaCMS 有三个目标：a) 提供人们期望现代系统提供的所有功能，b) 允许轻松安装和维护，c) 允许轻松定制和添加功能。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="/mediacms-io/mediacms/blob/main/LICENSE.txt"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MediaCMS 根据GNU Affero 通用公共许可证 v3.0 许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发布</font><font style="vertical-align: inherit;">。版权所有 Markos Gogoulos。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持和付费服务</font></font></h2><a id="user-content-support-and-paid-services" class="anchor" aria-label="永久链接：支持和付费服务" href="#support-and-paid-services"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们提供定制安装、额外功能开发、现有系统迁移、与旧系统集成、培训和支持。</font><font style="vertical-align: inherit;">如需更多信息，请通过</font></font><a href="mailto:info@mediacms.io"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">info@mediacms.io联系我们。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">硬件注意事项</font></font></h2><a id="user-content-hardware-considerations" class="anchor" aria-label="永久链接：硬件考虑因素" href="#hardware-considerations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于小型到中型安装，每天上传几个小时的视频，每天有几百个活跃用户查看内容，最低 4GB Ram / 2-4 个 CPU 即可。对于大型安装，每天上传几个小时的视频，请考虑添加更多 CPU 和更多 Ram。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至于磁盘空间，请考虑一下需求。一般规则是将预期上传视频的大小乘以三（因为系统会保留原始版本、编码版本以及 HLS），因此如果您每天收到 1G 的视频并维护所有视频，则应考虑一年使用 1T 磁盘（1G * 3 * 365）。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发行</font></font></h2><a id="user-content-releases" class="anchor" aria-label="固定链接：发布" href="#releases"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问</font></font><a href="https://github.com/mediacms-io/mediacms/releases"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发布页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看详细的更新日志</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装 / 维护</font></font></h2><a id="user-content-installation--maintanance" class="anchor" aria-label="永久链接：安装/维护" href="#installation--maintanance"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有两种方式可以运行 MediaCMS，一种是通过 Docker Compose，另一种是通过自动化脚本将其安装在服务器上，该脚本会安装并配置所有需要的服务。查找相关页面：</font></font></p>
+<ul dir="auto">
+<li>
+<p dir="auto"><a href="/mediacms-io/mediacms/blob/main/docs/admins_docs.md#2-server-installation"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单服务器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面</font></font></p>
+</li>
+<li>
+<p dir="auto"><a href="/mediacms-io/mediacms/blob/main/docs/admins_docs.md#3-docker-installation"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docker Compose</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完整指南可在博客文章</font></font><a href="https://medium.com/@MediaCMS.io/how-to-self-host-and-share-your-videos-in-2021-14067e3b291b" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在 2021 年自行托管和分享您的视频中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到。</font></font></p>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置</font></font></h2><a id="user-content-configuration" class="anchor" aria-label="固定链接：配置" href="#configuration"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问</font></font><a href="/mediacms-io/mediacms/blob/main/docs/admins_docs.md#5-configuration"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">面向开发人员的信息</font></font></h2><a id="user-content-information-for-developers" class="anchor" aria-label="永久链接：开发人员信息" href="#information-for-developers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看</font></font><a href="/mediacms-io/mediacms/blob/main/docs/dev_exp.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发者体验</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面上的新部分</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h2><a id="user-content-documentation" class="anchor" aria-label="永久链接：文档" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="/mediacms-io/mediacms/blob/main/docs/user_docs.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面</font></font></li>
+<li><a href="/mediacms-io/mediacms/blob/main/docs/admins_docs.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">管理员文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面</font></font></li>
+<li><a href="/mediacms-io/mediacms/blob/main/docs/developers_docs.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发人员文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></h2><a id="user-content-technology" class="anchor" aria-label="固定链接：科技" href="#technology"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该软件使用了以下一系列出色的技术：Python、Django、Django Rest Framework、Celery、PostgreSQL、Redis、Nginx、uWSGI、React、Fine Uploader、video.js、FFMPEG、Bento4</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谁在使用它</font></font></h2><a id="user-content-who-is-using-it" class="anchor" aria-label="永久链接：谁在使用它" href="#who-is-using-it"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cinemata</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非营利媒体、技术和文化组织 - </font></font><a href="https://cinemata.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://cinemata.org</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Critical Commons</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">公共媒体档案和合理使用倡导网络 - </font></font><a href="https://criticalcommons.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://criticalcommons.org</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">美国妇科腹腔镜医师协会</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- </font></font><a href="https://surgeryu.aagl.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://surgeryu.aagl.org/</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何贡献</font></font></h2><a id="user-content-how-to-contribute" class="anchor" aria-label="永久链接：如何贡献" href="#how-to-contribute"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果你喜欢这个项目，你可以做以下几件事</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">雇用我们进行定制安装、培训、支持和维护工作</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">向有兴趣雇用我们的人推荐我们</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">撰写有关 MediaCMS 的博客文章/文章</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在社交媒体上分享有关该项目的信息</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提出问题、参与</font></font><a href="https://github.com/mediacms-io/mediacms/discussions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">讨论</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、报告错误、提出想法</font></font></li>
+<li><a href="https://github.com/mediacms-io/mediacms/discussions/categories/show-and-tell"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展示并说明</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您如何使用项目</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为项目加星标</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加功能、处理 PR、解决问题！</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接触</font></font></h2><a id="user-content-contact" class="anchor" aria-label="永久链接：联系方式" href="#contact"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="mailto:info@mediacms.io"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">邮箱：info@mediacms.io</font></font></a></p>
+</article></div>
